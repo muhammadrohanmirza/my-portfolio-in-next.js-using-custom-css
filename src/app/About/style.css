@@ -1,0 +1,87 @@
+/* Section Styles */
+.about-section {
+    color: #4b5563; /* Tailwind text-gray-600 */
+    font-family: sans-serif;
+    padding: 96px 0;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.about-container.md-row {
+    flex-direction: row;
+}
+
+/* Image Container */
+.image-container {
+    max-width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 16rem;
+    border-radius: 12px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+/* Text Container */
+.text-container {
+    flex-grow: 1;
+    max-width: 50%;
+    padding-left: 64px;
+    text-align: center;
+}
+
+.text-container.md-align-left {
+    text-align: left;
+    align-items: flex-start;
+}
+
+/* Titles */
+.title {
+    font-size: 1.875rem; /* Tailwind text-3xl */
+    font-weight: 500;
+    color: #1f2937; /* Tailwind text-gray-900 */
+    margin-bottom: 16px;
+}
+
+.title.sm-large {
+    font-size: 2.25rem; /* Tailwind sm:text-4xl */
+}
+
+/* Paragraphs */
+.paragraph {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Button */
+.button-container-cv {
+    display: flex;
+    
+}
+
+.button-cv {
+    width: 150%;
+    color: #fff;
+    background-color: #3b82f6; /* Tailwind bg-blue-500 */
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-cv:hover {
+    background-color: #2563eb; /* Tailwind bg-blue-600 */
+}

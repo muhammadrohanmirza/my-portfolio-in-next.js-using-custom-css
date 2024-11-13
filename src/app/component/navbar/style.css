@@ -1,0 +1,80 @@
+
+/* Navbar styles */
+
+/* Container Styles */
+.header-container {
+  background-color: #f3f4f6;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-content.md-flex {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Logo Styles */
+.logo {
+  display: flex;
+  align-items: center;
+  color: #1f2937;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.logo-title {
+  margin-left: 12px;
+  font-size: 1.25rem;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  margin-right: 20px;
+  color: #1f2937;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #3b82f6; /* Hover color (blue) */
+}
+
+/* Button */
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f3f4f6;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+  background-color: #bfdbfe; /* Light blue hover */
+}
+
+/* Icon inside the button */
+.icon {
+  font-size: 1.25rem;
+  margin-left: 8px;
+}

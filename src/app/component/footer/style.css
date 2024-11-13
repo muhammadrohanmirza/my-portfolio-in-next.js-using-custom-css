@@ -1,0 +1,83 @@
+/* Footer Styles */
+.footer {
+    color: #4b5563; /* Tailwind text-gray-600 */
+    background-color: #f3f4f6; /* Tailwind bg-gray-100 */
+    /* padding: 20px 0; */
+    height: 110px;
+    display: flex;
+    padding-right: 300px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container.sm-row {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Logo and Text */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    color: #1f2937; /* Tailwind text-gray-900 */
+    text-decoration: none;
+}
+
+.footer-logo-title {
+    margin-left: 12px;
+    font-size: 1.25rem;
+}
+
+.footer-text {
+    font-size: 0.875rem;
+    color: #6b7280; /* Tailwind text-gray-500 */
+    margin-top: 16px;
+    border-top: 1px solid #e5e7eb; /* Tailwind border-gray-200 */
+    padding-top: 8px;
+}
+
+.footer-text.sm-adjust {
+    margin-left: 16px;
+    padding-left: 16px;
+    border-top: none;
+}
+
+/* Social Icons */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.social-link {
+    font-size: 1.875rem; /* Tailwind text-3xl */
+    color: #6b7280;
+    margin-left: 12px;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: blue;
+}
+
+.social-link.instagram:hover {
+    color: #da805f; /* Custom Instagram hover color */
+}
+
+.social-link.github:hover {
+    color: black; /* Custom GitHub hover color */
+}
+
+.social-link.linkedin:hover {
+    color: blue; /* Custom LinkedIn hover color */
+}
